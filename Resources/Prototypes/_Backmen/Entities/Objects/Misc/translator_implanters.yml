@@ -1,3 +1,4 @@
+
 - type: entity
   id: BaseTranslatorImplanter
   abstract: true
@@ -7,7 +8,7 @@
 - type: entity
   id: BasicGalaticCommonTranslatorImplanter
   parent: BaseTranslatorImplanter
-  name: стандартный имплантер переводчика
+  name: basic common translator implanter
   components:
   - type: Implanter
     implant: BasicTauCetiBasicTranslatorImplant
@@ -15,7 +16,7 @@
 - type: entity
   id: AdvancedGalaticCommonTranslatorImplanter
   parent: BaseTranslatorImplanter
-  name: улучшенный стандартный имплантер переводчика
+  name: advanced common translator implanter
   components:
   - type: Implanter
     implant: TauCetiBasicTranslatorImplant
@@ -23,7 +24,7 @@
 - type: entity
   id: BubblishTranslatorImplanter
   parent: BaseTranslatorImplanter
-  name: имплантер баблишского переводчика
+  name: bubblish translator implant
   components:
   - type: Implanter
     implant: BubblishTranslatorImplant
@@ -31,7 +32,7 @@
 - type: entity
   id: NekomimeticTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: имплантер некомиметического переводчика
+  name: nekomimetic translator implant
   components:
   - type: Implanter
     implant: NekomimeticTranslatorImplant
@@ -39,7 +40,7 @@
 - type: entity
   id: DraconicTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: имплантер драконического переводчика
+  name: draconic translator implant
   components:
   - type: Implanter
     implant: DraconicTranslatorImplant
@@ -47,7 +48,7 @@
 - type: entity
   id: CanilunztTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: имплантер канилунцтского переводчика
+  name: canilunzt translator implant
   components:
   - type: Implanter
     implant: CanilunztTranslatorImplant
@@ -55,7 +56,7 @@
 - type: entity
   id: SolCommonTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: имплантер солнцесистемного переводчика
+  name: sol-common translator implant
   components:
   - type: Implanter
     implant: SolCommonTranslatorImplant
@@ -63,7 +64,7 @@
 - type: entity
   id: RootSpeakTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: имплантер корневого переводчика
+  name: root-speak translator implant
   components:
   - type: Implanter
     implant: RootSpeakTranslatorImplant
@@ -71,7 +72,7 @@
 - type: entity
   id: MofficTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: имплантер моффикского переводчика
+  name: moffic translator implant
   components:
   - type: Implanter
     implant: MofficTranslatorImplant
@@ -79,7 +80,7 @@
 - type: entity
   id: ValyrianStandardTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: имплантер валирийского переводчика
+  name: valyrian standard translator implant
   components:
   - type: Implanter
     implant: ValyrianStandardTranslatorImplant
@@ -87,7 +88,7 @@
 - type: entity
   id: ShadokinStandardTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: имплантер шадокинского переводчика
+  name: Shadokin standard translator implant
   components:
   - type: Implanter
     implant: ShadokinStandardTranslatorImplant
@@ -95,7 +96,7 @@
 - type: entity
   id: DwarvenStandardTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: имплантер дворфийского переводчика
+  name: Dwarven standard translator implant
   components:
   - type: Implanter
     implant: DwarvenStandardTranslatorImplant
@@ -103,7 +104,7 @@
 - type: entity
   id: ElvishStandardTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: имплантер эйфильского переводчика
+  name: Elvish standard translator implant
   components:
   - type: Implanter
     implant: ElvishStandardTranslatorImplant
