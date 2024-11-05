@@ -3,8 +3,8 @@
   categories: [ HideSpawnMenu ]
   id: TranslatorUnpowered
   parent: BaseItem
-  name: устройство языкового перевода
-  description: Устройство, предназначенное для перевода различных языков.
+  name: translator
+  description: Translates speech.
   components:
   - type: Sprite
     sprite: Backmen/Objects/Devices/translator.rsi
@@ -55,15 +55,15 @@
   categories: [ HideSpawnMenu ]
   id: TranslatorForeigner
   parent: [ PowerCellSlotHighItem, TranslatorPoweredBase ]
-  name: устройство перевода иноречия
-  description: Специальное устройство для перевода, помогает понимать этот основной язык станции.
+  name: foreigner's translator
+  description: A special-issue translator that helps foreigner's speak and understand this station's primary language.
 
 
 - type: entity
   id: CanilunztTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство канилунцтского перевода
-  description: Переводит речь между языком Канилунцт и Базовым галактическим языком, помогает коммуницировать с вульпакинами и рычать.
+  name: Canilunzt translator
+  description: Translates speech between Canilunzt and Galactic Common, allowing your local yeepers to communicate with the locals and vice versa!
   components:
   - type: HandheldTranslator
     spoken:
@@ -79,8 +79,8 @@
 - type: entity
   id: BubblishTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство баблишского перевода
-  description: Переводит речь между языком Баблиш и Базовым галактическим языком, помогает коммуницировать с слаймолюдами и побулькать с слаймами.
+  name: Bubblish translator
+  description: Translates speech between Bubblish and Galactic Common, helping communicate with slimes and slime people.
   components:
   - type: HandheldTranslator
     spoken:
@@ -96,8 +96,8 @@
 - type: entity
   id: NekomimeticTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство некомиметического перевода
-  description: Переводит речь между Некомиметическим языком и Базовым галактическим языком, помогает коммуницировать с феленидами и понять своих котов.
+  name: Nekomimetic translator
+  description: Translates speech between Nekomimetic and Galactic Common, enabling you to communicate with your pet cats.
   components:
   - type: HandheldTranslator
     spoken:
@@ -113,8 +113,8 @@
 - type: entity
   id: DraconicTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство драконического перевода
-  description: Переводит речь между Драконическим языком и Базовым галактическим языком, помогает коммуницировать с унатхами и позволяет стать укротителем Драконов.
+  name: Draconic translator
+  description: Translates speech between Draconic and Galactic Common, making it easier to understand your local Uniathi.
   components:
   - type: HandheldTranslator
     spoken:
@@ -130,8 +130,8 @@
 - type: entity
   id: SolCommonTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство солнцесистемного перевода
-  description: Переводит речь между языком Солнечной системы и Базовым галактическим языком, помогает коммуницировать с людьми и почувствовать себя настоящим Землянином.
+  name: Sol Common translator
+  description: Translates speech between Sol Common and Galactic Common. Like a true Earthman!
   components:
   - type: HandheldTranslator
     spoken:
@@ -147,8 +147,8 @@
 - type: entity
   id: RootSpeakTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство корневого перевода
-  description: Переводит речь между языком Корней и Базовым галактическим языком, помогает коммуницировать с дионами и понимать деревья.
+  name: RootSpeak translator
+  description: Translates speech between RootSpeak and Galactic Common. You may now speak for the trees.
   components:
   - type: HandheldTranslator
     spoken:
@@ -164,8 +164,8 @@
 - type: entity
   id: MofficTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство моффикского перевода
-  description: Переводит речь между языком Моффик и Базовым галактическим языком, помогает коммуницировать с нианами и таракамольками.
+  name: Moffic translator
+  description: Translates speech between Moffic and Galactic Common, helping you understand the buzzes of your pet mothroach!
   components:
   - type: HandheldTranslator
     spoken:
@@ -181,8 +181,8 @@
 - type: entity
   id: XenoTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство ксеноморфского перевода
-  description: Переводит речь между языком Ксено и Базовым галактическим языком, помогает коммуницировать с ксеноморфами и пережить столковение с ними, наверное.
+  name: Xeno translator
+  description: Translates speech between Xeno and Galactic Common. This will probably not help you survive an encounter, though.
   components:
   - type: HandheldTranslator
     spoken:
@@ -197,8 +197,8 @@
 - type: entity
   id: AnimalTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство звериного перевода
-  description: Переводит речь между языком Зверей и Базовым галактическим языком, помогает коммуницировать с животными и понять их странное "гав".
+  name: Animal translator
+  description: Translates all the cutes noises that most animals make into a more understandable form!
   components:
   - type: HandheldTranslator
     understood:
@@ -223,8 +223,8 @@
 - type: entity
   id: ValyrianStandardTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство валирийского перевода
-  description: Переводит речь между Валирийским языком и Базовым галактическим языком, помогает коммуницировать с гарпиями и полетать как птица.
+  name: Valyrian Standard translator
+  description: Translates speech between Valyrian Standard and Tau-Ceti Basic. For talking to Harpies!
   components:
   - type: HandheldTranslator
     spoken:
@@ -240,8 +240,8 @@
 - type: entity
   id: ShadokinTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство шадокинского перевода
-  description: Переводит речь между языком Шадокинов и Базовым галактическим языком, помогает коммуницировать с шадовкинами и стать их тенью.
+  name: Shadokin translator
+  description: Translates speech between Shadokin and Tau-Ceti Basic. For talking to Shadowkin!
   components:
   - type: HandheldTranslator
     spoken:
@@ -257,8 +257,8 @@
 - type: entity
   id: DwarvenTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство дворфийского перевода
-  description: Переводит речь между языком Дворфов и Базовым галактическим языком, помогает коммуницировать с дворфами и пить с ними.
+  name: Dwarven translator
+  description: Translates speech between Dwarven and Tau-Ceti Basic. For talking to Dwarfs!
   components:
   - type: HandheldTranslator
     spoken:
@@ -274,8 +274,8 @@
 - type: entity
   id: ElvishTranslator
   parent: [ TranslatorPoweredBase ]
-  name: устройство эйфильского перевода
-  description: Переводит речь между Эльфийским языком и Базовым галактическим языком, помогает коммуницировать... С эльфами?
+  name: Elvish translator
+  description: Translates speech between Elvish and Tau-Ceti Basic. For talking to Elfs!
   components:
   - type: HandheldTranslator
     spoken:
